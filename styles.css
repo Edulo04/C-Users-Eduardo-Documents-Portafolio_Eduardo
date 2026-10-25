@@ -7,3 +7,21 @@
 /* Detalles de propuesta y enlaces a evidencias documentadas */
 .differentiators{display:grid;gap:10px;margin:22px 0}.differentiators article{border-left:2px solid var(--green);padding:6px 0 6px 14px}.differentiators strong,.differentiators span{display:block}.differentiators strong{font-size:.78rem;color:white}.differentiators span{font-size:.75rem;color:#c5d0c9;margin-top:3px}.evidence-link{display:inline-block;font-size:.78rem;font-weight:800;color:#426522;padding:5px 0}.evidence-link:hover{text-decoration:underline}.topbar a:focus-visible,.topbar button:focus-visible,a:focus-visible{outline:3px solid #789e3b;outline-offset:4px;border-radius:3px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* Refuerzo de azul y evidencias legibles sin abandonar la paleta original */
+:root{--deep:#173b59;--blue:#3479ad;--blue-soft:#e7f0f7;--blue-line:#cddde9}
+h1 span,.skill-icon,.text-link span{color:var(--blue)}
+.topbar nav a:hover,.contact-links a:hover strong{color:var(--blue)}
+.topbar nav .nav-cta{border-color:var(--blue-line)}
+.intro-strip{background:#d9e9f3}
+.hero-visual{background:#e8f0f5}.orb{border-color:#c6d8e5}
+.evidence-details{margin-top:14px;border-top:1px solid #e5ebef;padding-top:10px}
+.evidence-details summary{color:#255e86;font-size:.79rem;font-weight:800;cursor:pointer;list-style:none}
+.evidence-details summary::-webkit-details-marker{display:none}
+.evidence-details summary::after{content:'＋';float:right;color:var(--blue)}
+.evidence-details[open] summary::after{content:'−'}
+.evidence-detail-body{margin-top:10px;padding:12px 14px;background:var(--blue-soft);border-left:3px solid var(--blue);border-radius:0 5px 5px 0}
+.evidence-detail-body p{margin:5px 0;font-size:.76rem;line-height:1.7}
+.evidence-detail-body strong{color:#244b68}
+.evidence-art.database-art{background:#e5eff5}.leadership-art{background:#e8eff4}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
