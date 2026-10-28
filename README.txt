@@ -19,3 +19,10 @@ Antes de publicar
 - Confirmá el correo, el enlace de LinkedIn, cargos y períodos.
 - Los archivos de evidencias son resúmenes personales, no constancias externas. Adjuntá documentos verificables solo si existen y tenés autorización para divulgarlos.
 - No publiques datos, código, procesos internos ni información confidencial de Patria Seguros o KOVE S.A.
+
+
+Agregar imágenes a la galería
+1. Copiá cada imagen a assets/images/ con un nombre simple, por ejemplo proyecto-erp.jpg.
+2. Dentro de <div class="gallery-grid"> en index.html, duplicá el bloque <figure class="gallery-card"> existente.
+3. Actualizá el valor de src, el texto alternativo alt y el pie de foto.
+4. La cuadrícula se adapta automáticamente a pantallas grandes y celulares.
