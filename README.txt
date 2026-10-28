@@ -26,3 +26,11 @@ Agregar imágenes a la galería
 2. Dentro de <div class="gallery-grid"> en index.html, duplicá el bloque <figure class="gallery-card"> existente.
 3. Actualizá el valor de src, el texto alternativo alt y el pie de foto.
 4. La cuadrícula se adapta automáticamente a pantallas grandes y celulares.
+
+
+Privacidad de certificados laborales
+La galería de evidencias muestra los cargos y períodos acreditados, pero no enlaza las imágenes originales de los certificados porque contienen datos personales, salario, horario y firmas. No copies los originales a una carpeta pública del sitio. Si los agregaste a un repositorio público, quitarlos de la carpeta del sitio no elimina copias de commits anteriores; revisá la visibilidad del repositorio y el historial.
+
+
+Certificados para mostrar en el sitio
+En assets/image se guardan únicamente las copias redactadas. Los certificados originales se guardan en Portafolio_Eduardo_privado, fuera de la carpeta publicable. Antes de desplegar, comprobá que el repositorio remoto no conserve las fotos originales en versiones anteriores; quitarlas de la versión actual no las elimina del historial de Git.

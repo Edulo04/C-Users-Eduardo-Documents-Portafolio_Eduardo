@@ -38,3 +38,5 @@ h1 span,.skill-icon,.text-link span{color:var(--blue)}
 .gallery-card figcaption{display:flex;flex-direction:column;padding:13px 16px;font-size:.83rem;font-weight:800}
 .gallery-card figcaption span{font-size:.68rem;color:var(--muted);font-weight:500;margin-top:3px}
 @media(max-width:600px){.gallery-section{padding-top:55px;padding-bottom:55px}.gallery-heading{align-items:start;flex-direction:column;gap:10px}.gallery-grid{grid-template-columns:1fr}.gallery-card{max-width:420px;width:100%;margin-inline:auto}}
+
+.certificate-preview{margin:14px 0 0}.certificate-preview img{display:block;width:100%;max-height:520px;object-fit:contain;object-position:top center;background:#fff;border:1px solid var(--blue-line);border-radius:6px}.certificate-preview figcaption{font:.64rem 'DM Mono',monospace;color:var(--muted);margin-top:6px}

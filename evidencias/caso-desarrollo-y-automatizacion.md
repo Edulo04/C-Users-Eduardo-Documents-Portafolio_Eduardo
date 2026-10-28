@@ -1,15 +1,9 @@
-# Evidencia 01 · Desarrollo y automatización empresarial
+# Experiencia laboral · KOVE S.A.
 
-**Autor:** Eduardo López  
-**Organización:** KOVE S.A.  
-**Área:** Desarrollo de software  
+**Cargo:** Desarrollador  
+**Período acreditado:** 1 de septiembre de 2025 al 26 de junio de 2026  
+**Respaldo:** certificado laboral emitido por KOVE S.A.
 
-## Descripción
+El certificado acredita el cargo y el período indicados. Mi experiencia relacionada incluye Oracle APEX, PL/SQL, bases de datos Oracle y automatización de procesos empresariales.
 
-Registro descriptivo de mi experiencia previa trabajando con Oracle APEX, PL/SQL y bases de datos Oracle, incluyendo automatización de procesos empresariales. Esta experiencia forma parte de mi trayectoria profesional y complementa mi perfil actual en calidad TI.
-
-## Alcance de esta evidencia
-
-Este documento resume las tecnologías y el tipo general de trabajo que integraron mi experiencia. No incluye nombres de clientes, datos, código fuente, arquitectura interna, métricas ni detalles operativos de la empresa. No presenta resultados cuantitativos ni atribuye impactos que no estén documentados aquí.
-
-**Nota:** resumen personal para el portafolio; no sustituye una constancia laboral ni una referencia de la organización.
+El documento original se conserva de forma privada y no se publica porque contiene información personal y una firma.
