@@ -34,3 +34,7 @@ La galería de evidencias muestra los cargos y períodos acreditados, pero no en
 
 Certificados para mostrar en el sitio
 En assets/image se guardan únicamente las copias redactadas. Los certificados originales se guardan en Portafolio_Eduardo_privado, fuera de la carpeta publicable. Antes de desplegar, comprobá que el repositorio remoto no conserve las fotos originales en versiones anteriores; quitarlas de la versión actual no las elimina del historial de Git.
+
+
+Tema visual
+La navegación permite elegir Sistema, Claro u Oscuro. Sistema sigue la preferencia de apariencia del dispositivo y se actualiza si cambia; las selecciones Claro y Oscuro se guardan en el navegador.
