@@ -79,3 +79,24 @@ h1 span,.skill-icon,.text-link span{color:var(--blue)}
 :root[data-theme="dark"] .profile-copy p,:root[data-theme="dark"] .timeline-body p,:root[data-theme="dark"] .timeline-body li{color:#c9d5dd}
 :root[data-theme="dark"] .timeline-type{color:#a8d477}
 :root[data-theme="dark"] .topbar nav .nav-cta{border-color:var(--blue-line);color:var(--ink)}
+
+/* Certificados y cursos compartidos */
+.credential-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:42px}
+.credential-card{display:flex;flex-direction:column;min-height:245px;padding:22px;background:#fff;border:1px solid #e3e8e7;border-radius:10px;box-shadow:0 12px 30px #173b590b}
+.credential-featured{border-color:#9cc4dc;background:linear-gradient(145deg,#f2f8fb,#fff 68%)}
+.credential-meta{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.credential-mark{display:grid;place-items:center;min-width:42px;height:34px;padding:0 8px;border-radius:6px;background:#e3f0f7;color:#245e83;font:700 .7rem 'DM Mono',monospace}
+.credential-status,.credential-type{font:600 .62rem 'DM Mono',monospace;color:#4c6c5a}
+.credential-issuer{margin:20px 0 5px;font:500 .62rem 'DM Mono',monospace;letter-spacing:.12em;color:#74838b}
+.credential-card h3{font-size:1.07rem;line-height:1.35;letter-spacing:-.035em;margin:0 0 8px}
+.credential-description,.credential-date{font-size:.75rem;color:var(--muted);line-height:1.65;margin:0 0 8px}
+.credential-link{margin-top:auto;padding-top:14px;color:#28658d;font-size:.78rem;font-weight:800}
+.credential-link:hover{text-decoration:underline}
+:root[data-theme="dark"] .credential-card{background:#182733;border-color:#304858;box-shadow:0 12px 30px #0002}
+:root[data-theme="dark"] .credential-featured{background:linear-gradient(145deg,#1b3547,#182733 68%);border-color:#47718c}
+:root[data-theme="dark"] .credential-mark{background:#29485c;color:#b6def5}
+:root[data-theme="dark"] .credential-status{color:#b6df92}
+:root[data-theme="dark"] .credential-type,:root[data-theme="dark"] .credential-issuer,:root[data-theme="dark"] .credential-description,:root[data-theme="dark"] .credential-date{color:#b8c6cf}
+:root[data-theme="dark"] .credential-link{color:#a8d8f5}
+@media(max-width:850px){.credential-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.credential-grid{grid-template-columns:1fr}.credential-card{min-height:215px}}

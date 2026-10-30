@@ -38,3 +38,7 @@ En assets/image se guardan únicamente las copias redactadas. Los certificados o
 
 Tema visual
 La navegación permite elegir Sistema, Claro u Oscuro. Sistema sigue la preferencia de apariencia del dispositivo y se actualiza si cambia; las selecciones Claro y Oscuro se guardan en el navegador.
+
+
+Certificaciones y cursos
+La sección Certificaciones enlaza a la credencial Oracle APEX y a cuatro constancias alojadas en Google Drive. Comprobá que los permisos de los archivos de Drive permitan a los visitantes del portafolio abrirlos.
